@@ -64,7 +64,7 @@ class MeuFiltro extends php_user_filter
             $linhas = explode("\n", $bucket->data);
 
             foreach ($linhas as $linha) {
-                if (stripos($linha, 'commodo') !== false) {
+                if (stripos($linha, 'ea') !== false) {
                     $saida .= "$linha\n";
                 }
             }
